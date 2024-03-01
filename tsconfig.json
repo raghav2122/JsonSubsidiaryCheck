@@ -1,0 +1,20 @@
+{
+    "compilerOptions": {
+        "lib": ["es5","es6", "dom"],
+        "outDir": "./dist/",
+        "sourceMap": true,
+        "noImplicitAny": true,
+        "module": "commonjs",
+        "target": "es6",
+        "moduleResolution": "node",
+        "jsx": "react"
+},
+"include": [
+    "./src/**/*",
+    "index.ts"  // Add this line to include the index.ts file
+  ],
+  "exclude": [
+    "./dist"
+  ]
+    
+}
